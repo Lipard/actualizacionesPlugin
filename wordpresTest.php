@@ -18,7 +18,7 @@ Description: Importador de datos del sistema Xana Platform.
 Author: Woman on Mars
 Version: 0.9.3.6
 Author URI: http://www.womanonmars.com/
-Text Domain: xtest
+Text Domain: xtestss
 Domain Path: /languages/
 
 */
