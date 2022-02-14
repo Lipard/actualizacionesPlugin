@@ -1,5 +1,28 @@
 <?php
 
+/*
+ * iCat admin settings
+ *
+ * This file is read by WordPress to generate the plugin information in the
+ * plugin admin area. This file also defines a function that starts the plugin.
+ *
+ * @link              
+ * @since             1.0.0
+ * @package           iCat_Admin_Settings
+ *
+ * @wordpress-plugin
+
+Plugin Name: Wom-iCat-admin
+Plugin URI: http://wordpress.org/extend/plugins/#
+Description: Importador de datos del sistema Xana Platform.
+Author: Woman on Mars
+Version: 0.9.3.6
+Author URI: http://www.womanonmars.com/
+Text Domain: xana-admin
+Domain Path: /languages/
+
+*/
+
 // We're going to parse the GitHub markdown release notes, include the parser
 require_once( plugin_dir_path( __FILE__ ) . "Parsedown.php" );
 
@@ -184,7 +207,6 @@ class BFIGitHubPluginUpdater {
     }
 }
 
-require_once( 'BFIGitHubPluginUploader.php' );
 if ( is_admin() ) {
     new BFIGitHubPluginUpdater( __FILE__, 'Lipard', "actualizacionesPlugin" );
 }
