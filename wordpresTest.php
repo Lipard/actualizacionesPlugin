@@ -12,13 +12,13 @@
  *
  * @wordpress-plugin
 
-Plugin Name: Wom-iCat-admin
+Plugin Name: Test
 Plugin URI: http://wordpress.org/extend/plugins/#
 Description: Importador de datos del sistema Xana Platform.
 Author: Woman on Mars
 Version: 0.9.3.6
 Author URI: http://www.womanonmars.com/
-Text Domain: xana-admin
+Text Domain: xtest
 Domain Path: /languages/
 
 */
